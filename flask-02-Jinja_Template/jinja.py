@@ -15,7 +15,7 @@ def number1():
 
     x=15
     y=20
-    return render_template('sum.html', num1=x, num2=y, sum=x+y)
+    return render_template('sum.html', num1=x, num2=y, sum1=x+y)
 
 if __name__ == '__main__':
     #app.run(debug=True)
